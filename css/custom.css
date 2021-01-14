@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lora&family=Montserrat:wght@300;400;600&display=swap');
+
+body{
+
+    background-color: #181719 !important;
+}
+
+.logo h1{
+
+    font-family: Crimson Pro;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 103px;
+    height: 31px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+
+
+}
+
+.hamburguer{
+
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: all 0.3s;
+  }
+  
+  .sidenav a:hover {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .menu_mobile{
+
+    display: none;
+  }
+
+  .menu_desk ul{
+
+    display: inline-flex;
+    float: right;
+    list-style: none;
+  }
+
+  .menu_desk ul>li{
+
+    margin-left: 5rem;
+
+  }
+
+
+  
+  .menu_desk ul>li>a{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all 0.3s;
+
+  }
+
+  .menu_desk ul>li>a:hover{
+
+    color: #fff;
+    font-weight: bold;
+
+  }
+
+    
+.title_section{
+
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+.text_section{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    width: 250px;
+    color: #FFFFFF;
+
+}
+
+.link{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link:hover{
+
+
+    color: #FFFFFF;
+}
+
+.w-20{
+
+    width: 20px;
+}
+
+.img-people{
+
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+
+.block_people {
+    display: flex;
+    margin: 20px;
+    background: #181719;
+    position: relative;
+    top: -5rem;
+    padding: 20px;
+    margin-left: 10rem;
+}
+
+.description{
+
+  margin-left: 2rem;
+}
+
+.name{
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  
+}
+
+.office{
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+
+
+
+}
+
+.date{
+
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  
+  color: #FFFFFF;
+
+}
+
+.p-copy{
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A9A9A9;
+}
+
+
+  @media only screen and (max-width: 992px){
+
+    .menu_mobile{
+
+        display: block;
+    }
+
+    .menu_desk{
+
+        display: none;
+    }
+
+    .block_people{
+
+        display: flex;
+        margin: 30px;
+        position: relative;
+        top: -5rem;
+        padding: 21px;
+    }
+    
+
+  }
